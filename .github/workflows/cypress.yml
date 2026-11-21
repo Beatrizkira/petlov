@@ -1,7 +1,7 @@
 name: Cypress e2e Tests
 
 "on":
-  push:
+  workflow_dispatch:
   pull_request:
 
 jobs:
